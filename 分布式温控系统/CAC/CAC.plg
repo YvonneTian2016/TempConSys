@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CAC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\flashfox\AppData\Local\Temp\RSPC98A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CAC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\flashfox\Desktop\CAC\CentralSocket.cpp"
+]
+Creating command line "cl.exe @C:\Users\flashfox\AppData\Local\Temp\RSPC98A.tmp" 
+Creating temporary file "C:\Users\flashfox\AppData\Local\Temp\RSPC98B.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CAC.pdb" /debug /machine:I386 /out:"Debug/CAC.exe" /pdbtype:sept 
+.\Debug\ADO.obj
+.\Debug\CAC.obj
+.\Debug\CACDlg.obj
+.\Debug\CentralSocket.obj
+.\Debug\LOGDlg.obj
+.\Debug\ModifyFreq.obj
+.\Debug\SlaveSocket.obj
+.\Debug\StdAfx.obj
+.\Debug\TransParentButton.obj
+.\Debug\CAC.res
+]
+Creating command line "link.exe @C:\Users\flashfox\AppData\Local\Temp\RSPC98B.tmp"
+<h3>Output Window</h3>
+Compiling...
+CentralSocket.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+CAC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

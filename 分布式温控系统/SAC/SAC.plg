@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SAC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\flashfox\AppData\Local\Temp\RSPC207.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/SAC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\flashfox\Desktop\SAC\SACDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\flashfox\AppData\Local\Temp\RSPC207.tmp" 
+Creating temporary file "C:\Users\flashfox\AppData\Local\Temp\RSPC218.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SAC.pdb" /debug /machine:I386 /out:"Debug/SAC.exe" /pdbtype:sept 
+.\Debug\SAC.obj
+.\Debug\SACDlg.obj
+.\Debug\SlaveSocket.obj
+.\Debug\StdAfx.obj
+.\Debug\TransParentButton.obj
+.\Debug\SAC.res
+]
+Creating command line "link.exe @C:\Users\flashfox\AppData\Local\Temp\RSPC218.tmp"
+<h3>Output Window</h3>
+Compiling...
+SACDlg.cpp
+Linking...
+LINK : warning LNK4076: invalid incremental status file "Debug/SAC.ilk"; linking nonincrementally
+
+
+
+<h3>Results</h3>
+SAC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
